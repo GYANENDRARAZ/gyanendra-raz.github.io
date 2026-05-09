@@ -145,6 +145,41 @@ footer {
     padding: 20px;
     background: #020617;
 }
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card{
+    background: #111827;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.project-card:hover{
+    transform: translateY(-5px);
+}
+
+.project-card h3{
+    color: #38bdf8;
+}
+
+.project-card p{
+    color: white;
+}
+
+.project-card a{
+    display: inline-block;
+    margin-top: 10px;
+    color: #38bdf8;
+    text-decoration: none;
+}
 </style>
 
 </head>
@@ -229,6 +264,8 @@ Data Analyst with 3+ years of experience working with large datasets, optimizing
 </div>
 </section>
 
+
+
 <!-- EXPERIENCE -->
 
 <section id="experience">
@@ -258,21 +295,33 @@ Data Analyst with 3+ years of experience working with large datasets, optimizing
 <!-- PROJECTS -->
 
 <section id="projects">
-<h2>Projects</h2>
 
-<div class="project-card">
-<h3>Movie Rental Analysis</h3>
-<p>SQL joins, window functions</p>
-<a href="#" class="btn">View Project</a>
-</div>
+    <h2>Projects</h2>
 
-<div class="project-card">
-<h3>Sales Analysis</h3>
-<p>Trend analysis using SQL</p>
-<a href="#" class="btn">View Project</a>
-</div>
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>Power BI Sales Dashboard</h3>
+            <p>Interactive dashboard for sales, profit, and regional analysis using Power BI.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Attendance System</h3>
+            <p>Python Tkinter application using camera for attendance tracking.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>SQL Superstore Analysis</h3>
+            <p>Advanced SQL queries for customer insights and business analysis.</p>
+            <a href="#">View Project</a>
+        </div>
+
+    </div>
 
 </section>
+    <!--
 <section id="freelance">
 <h2>Freelance Services</h2>
 <p>Available for freelance projects and remote work.</p>
@@ -282,7 +331,7 @@ Data Analyst with 3+ years of experience working with large datasets, optimizing
     <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
     <a href="https://fiverr.com/yourprofile" target="_blank">Fiverr</a>
 </div>
-</section>
+</section>  -->
 
 <!-- RESUME -->
 
